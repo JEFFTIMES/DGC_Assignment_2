@@ -1,0 +1,41 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Weather Finder App</title>
+    <link href="./mock.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="container">
+        <div class="image-container">
+            <h1>Weather Finder</h1>
+            <p><i>find out temperature,conditions and more...</i></p>
+        </div>
+        <div class="form-container">
+            <form class="input-form" onsubmit="return false">
+                <input type="text" id="city" placeholder="City"/>
+                <input type="text" id="country" placeholder="Country"/>
+                <input type="submit" id="submit-button" value="Get Weather" />
+            </form>
+            <div class="output-list">
+                <div class="output-item">
+                    <p class="output-list-label" >Location:</p>
+                    <p class="output-list-content">Surrey</p>
+                </div>
+                <div class="output-item">
+                    <p class="output-list-label" >Temperature:</p>
+                    <p class="output-list-content">28.0</p>
+                </div>
+                <div class="output-item">
+                    <p class="output-list-label" >Humidity:</p>
+                    <p class="output-list-content">78%</p>
+                </div>
+                <div class="output-item">
+                    <p class="output-list-label" >Conditions:</p>
+                    <p class="output-list-content">Cloudy</p>
+                </div>
+            </div>          
+        </div>
+    </div>
+  </body>
+</html>
